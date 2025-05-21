@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 
 Scaffold initial() {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 92, 173, 240),
+      backgroundColor: const Color.fromARGB(255, 130, 198, 253),
       appBar: AppBar(
-        title: Text('𝑰𝒎𝒂𝒈𝒊𝒏𝒂𝒕𝒊𝒐𝒏', style: TextStyle(color: Colors.white)),
+        title: Text('𝑰𝒎𝒂𝒈𝒊𝒏𝒂𝒕𝒊𝒐𝒏',
+         style: TextStyle(color: Colors.white)
+         ),
         backgroundColor: const Color.fromARGB(255,92, 173, 240),
         actions:[
           IconButton(
@@ -43,7 +45,7 @@ Scaffold initial() {
             ),
             onPressed: () {
             },
-            child: Text('Ingresar '),
+            child: Text('𝙄𝙣𝙜𝙧𝙚𝙨𝙖𝙧 '),
           ),
           ],
         )
