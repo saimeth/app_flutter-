@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 Scaffold initial() {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 92, 173, 240),
@@ -34,7 +35,7 @@ Scaffold initial() {
               ),
             ),
             const SizedBox(height: 10),
-            Image.network("https://i.imgur.com/LpKPBFb.png"),             
+            Image.network("https://i.imgur.com/NDEJ39X.png"),             
           ElevatedButton(
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all<Color>(Colors.blue),
