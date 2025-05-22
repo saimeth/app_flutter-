@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-Scaffold success() {
+
+Scaffold Success() {
   return Scaffold(
     backgroundColor: const Color.fromARGB(255, 130, 198, 253),
   appBar: AppBar(

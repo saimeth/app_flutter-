@@ -1,6 +1,6 @@
   import 'package:flutter/material.dart';
 
-Scaffold loading() {
+Scaffold Loading() {
   return Scaffold(
     backgroundColor: const Color.fromARGB(255, 92, 173, 240),
     body: Center(
